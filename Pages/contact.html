@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="../css/styles.css" type="text/css">
+    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/semantic.min.css"/>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <script src="../Js/index.js"></script>
+</head>
+<body>
+<div class="hero-container">
+    <div class="custom-sidebar">
+        <nav>
+            <ul>
+                <li><a href="../index.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="content">
+        <section class="hero">
+            <div class="hero-content">
+                <h1 id="myTitle">Contact Me</h1>
+                <form id="contact-form" method="post" action="https://formspree.io/dev.davidlutta@gmail.com">
+                    <div>
+                        <input type="text" class="emailCard" placeholder="name" name="name" id="name">
+                    </div>
+                    <div>
+                        <input type="email" class="emailCard" placeholder="email" name="email" id="email">
+                    </div>
+                    <div>
+                        <textArea id="message" class="emailCard" cols="50" rows="10" placeholder="Message"
+                                  name="message"></textArea>
+                    </div>
+                    <button class="custom-button" type="submit" onclick="sendEmail()">Send</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <div class="custom-footer">
+        <footer>
+            <ul>
+                <li><a href="https://twitter.com/David__Ezekiel" target="_blank"><img src="../Images/Group 4.svg"
+                                                                                      height="50px" width="50px"
+                                                                                      alt="Twitter"></a></li>
+                <li><a href="https://www.linkedin.com/in/david-lutta-797891ab/" target="_blank"><img
+                        src="../Images/linkedin.svg" height="50px" width="50px" alt="Linked In"></a></li>
+                <li><a href="https://github.com/davidlutta" target="_blank"><img src="../Images/github-logo.svg"
+                                                                                 height="50px" width="50px"
+                                                                                 alt="Github"></a></li>
+            </ul>
+            <p class="acknowledgment">Made With &hearts; by David Ezekiel Lutta</p>
+        </footer>
+    </div>
+</div>
+</body>
+</html>

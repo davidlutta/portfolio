@@ -9,8 +9,9 @@ body {
     margin: 0;
     padding: 0;
 }
+
 #myTitle{
-    font-family: 'Open Sans Bold', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 3em;
     color: #827DFD;
@@ -22,50 +23,55 @@ body {
     grid-area: content;
     background: url("../Images/Group\ 13.png");
 }
+
 nav ul {
     margin: 0;
 }
-.sidebar{
+
+.custom-sidebar {
     margin: 0px;
     grid-area: sidebar;
-    background: linear-gradient(to right, 
+    background: linear-gradient(to right,
     rgba(249, 107, 142, 1),
     rgba(219, 103, 228, 1),
     rgba(130, 125, 253, 1));
     justify-content: center;
 }
-.footer{
+
+.custom-footer {
     grid-area: footer;
     background: white;
     text-align: -webkit-center;
 }
-.footer ul{
+
+.custom-footer ul {
     margin: 0px;
 }
-.container{
+
+.hero-container {
     font-size: 1.5em;
     margin: 0;
     padding: 0;
     width: 100%;
-    grid-template-areas: 
-        "sidebar"
-        "content"
-        "footer";
+    grid-template-areas: "sidebar" "content" "footer";
     grid-template-columns: 1fr;
     grid-template-rows: 130px 800px 250px;
 }
-.acknowledgment{
+
+.acknowledgment {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     color: #F96B8E;
     font-size: 0.6em;
 }
-.sidebar,
+
+.custom-sidebar,
 .content,
-.footer{
+.custom-footer {
     padding: 1em;
 }
-nav ul{
+
+nav ul {
     padding: 0;
     display: flex;
     justify-content: space-between;
@@ -117,8 +123,9 @@ nav li a:hover{
     box-shadow: 0 10px 50px rgba(188, 197, 216, 1);
     background: #776bf9;
 }
-#subtitle{
-    font-family: 'Open Sans Bold', sans-serif;
+#subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
     color: #373D46;
 }
 footer ul{
@@ -134,53 +141,158 @@ footer ul li{
     align-self: flex-end;
 }
 
-footer ul li a{
+footer ul li a {
     text-decoration: none;
 }
-.skillsList{
+
+.skillsList {
     font-weight: 300;
     color: #98A0AD;
     list-style: none;
 }
-@media(min-width: 1040px){
-    .container{
+
+.custom-button:hover {
+    box-shadow: 0 10px 50px rgba(188, 197, 216, 1);
+    background: #776bf9;
+}
+
+.custom-button:focus {
+    outline: none;
+}
+
+.emailCard {
+    margin: 20px;
+    padding: 25px;
+    font-family: 'Open Sans light', sans-serif;
+    color: #373D46;
+    font-size: 1em;
+    border-radius: 20px;
+    border-color: transparent;
+    box-shadow: 0px 10px 50px rgba(188, 197, 216, 1);
+    width: 400px;
+}
+
+.emailCard:focus {
+    outline-color: transparent;
+}
+
+.custom-button {
+    border: none;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    background: #867BFB;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.projectTitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.projectSubTitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.crd {
+    background: white;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 1px;
+    box-shadow: 0px 10px 50px rgba(188, 197, 216, 1);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+title {
+    color: pink;
+}
+
+.crd-text {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    color: #373D46;
+}
+
+@media (min-width: 1040px) {
+    .hero-container {
         display: grid;
-        grid-template-areas: 
-        "sidebar content"
-        "sidebar footer";
+        grid-template-areas: "sidebar content" "sidebar footer";
         grid-template-columns: 300px 1fr;
         grid-template-rows: 1fr auto;
     }
-    nav ul{
+
+    nav ul {
         display: flex;
-        justify-content: space-between; 
+        justify-content: space-between;
         flex-direction: column;
     }
-    .sidebar{
-       background: linear-gradient( 
-       rgba(249, 107, 142, 1),
-       rgba(219, 103, 228, 1),
-       rgba(130, 125, 253, 1));
-       padding-top: 3em;
+
+    .custom-sidebar {
+        background: linear-gradient(
+                rgba(249, 107, 142, 1),
+                rgba(219, 103, 228, 1),
+                rgba(130, 125, 253, 1));
+        padding-top: 3em;
     }
-    .hero{
+
+    .hero {
         text-align: left;
         margin: 2em auto;
     }
-    .hero img{
+
+    .hero img {
         width: 250px;
         float: right;
     }
     .hero h1{
         font-size: 3em;
     }
-    .hero p{
+
+    .hero p {
         width: 60%;
     }
-    footer ul{
+
+    footer ul {
         max-width: 960px;
         margin: 0 auto;
         padding: 2em 0;
     }
 }
 
+#coinmarket {
+    height: available;
+    width: available;
+}
+
+::selection {
+    background: #F96B8E;
+    color: #F4F6FA;
+}
+
+::-moz-selection {
+    background: #F96B8E;
+    color: #F4F6FA;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.noProject {
+    margin: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #F96B8E;
+}

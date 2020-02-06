@@ -1,43 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link href="css/bootstrap-grid.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div class="container">
-        <div class="sidebar">
-            <nav>
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="Pages/Skills.html">Portfolio</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+<div class="hero-container">
+    <div class="custom-sidebar">
+        <nav>
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="Pages/projects.html">Projects</a></li>
+                <li><a href="Pages/skills.html">Skills</a></li>
+                <li><a href="Pages/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
 
-        <div class="content">
+    <div class="content">
             <section class="hero">
-                <img src="Images/DSC_0226@2x.png" alt="profile image">
+                <img alt="profile image" class="img-fluid" src="Images/DSC_0226@2x.png">
                 <div class="hero-content">
-                    <h1 id="myTitle"> <span class="howdy">Howdy,</span> I'm<br> David Ezekiel</h1>
-                    <p>Mobile software engineer who loves making android applications and working on android projects. I have been interested in programming since high school where I stumbled upon codecademy and started teaching myself the basics of JavaScript. After high school I decided to join Moringa school in order to enhance my programming skills and also be in an environment where I can Learn how to work with other developers. In Moringa I have spent over 5 months coding, working in teams and building amazing applications using various languages such as HTML, CSS, Java and using frameworks such as Angular, spark and Android. The lessons learnt from Moringa have been truly amazing because I have learnt the importance of Behaviour Driven Development. </p>
-                    <a href="#" class="action-btn">Hire me</a>
+                    <h1 id="myTitle"><span class="howdy">Howdy,</span> I'm<br> David Ezekiel</h1>
+                    <p>I'm a Mobile software engineer who loves making android applications and Web applications. </p>
+                    <a class="action-btn" href="Pages/contact.html">Contact me</a>
                 </div>
             </section>
         </div>
-        <div class="footer">
-            <footer>
-                <ul>
-                    <li><a href="https://twitter.com/David__Ezekiel" target="_blank"><img src="Images/Group 4.svg" height="50px" width="50px" alt="Twitter"></a></li>
-                    <li><a href="https://dribbble.com/By_levels" target="_blank"><img src="Images/Group 5.svg" height="50px" width="50px" alt="Dribbble"></a></li>
-                    <li><a href="https://github.com/davidlutta" target="_blank"><img src="Images/github-logo.svg" height="50px" width="50px" alt="Github"></a></li>
-                </ul>
-                <p class="acknowledgment">Made With &hearts; by David Ezekiel Lutta</p>
-            </footer>
-        </div>
+    <div class="custom-footer">
+        <footer>
+            <ul>
+                <li><a href="https://twitter.com/David__Ezekiel" target="_blank"><img src="Images/Group 4.svg"
+                                                                                      height="50px" width="50px"
+                                                                                      alt="Twitter"></a></li>
+                <li><a href="https://www.linkedin.com/in/david-lutta-797891ab/" target="_blank"><img alt="Linked In"
+                                                                                                     height="50px"
+                                                                                                     src="Images/linkedin.svg"
+                                                                                                     width="50px"></a>
+                </li>
+                <li><a href="https://github.com/davidlutta" target="_blank"><img src="Images/github-logo.svg"
+                                                                                 height="50px" width="50px"
+                                                                                 alt="Github"></a></li>
+            </ul>
+            <p class="acknowledgment">Made With &hearts; by David Ezekiel Lutta</p>
+            <p class="acknowledgment">
+                <dev class="davidlutta@gmail com"></dev>
+            </p>
+        </footer>
+    </div>
     </div>
 </body>
 
