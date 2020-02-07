@@ -171,7 +171,6 @@ a{
     border-radius: 20px;
     border-color: transparent;
     box-shadow: 0px 10px 50px rgba(188, 197, 216, 1);
-    width: 400px;
 }
 
 .emailCard:focus {
