@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="f1dd778b-ac2c-4274-91b8-32e43b60c42a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/react.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Images/react.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/skills.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,6 +154,7 @@
       <workItem from="1580819672974" duration="15300000" />
       <workItem from="1580905554653" duration="28670000" />
       <workItem from="1581005943809" duration="669000" />
+      <workItem from="1581160241099" duration="5387000" />
     </task>
     <servers />
   </component>
@@ -185,11 +190,11 @@
       <screen x="1024" y="0" width="1366" height="768" />
     </state>
     <state x="1124" y="126" width="1166" height="542" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1024.0.1366.768/0.26.1024.742@1024.0.1366.768" timestamp="1580907073956" />
-    <state x="1370" y="204" key="com.intellij.ide.util.TipDialog" timestamp="1580905562122">
+    <state x="1370" y="204" key="com.intellij.ide.util.TipDialog" timestamp="1581160245891">
       <screen x="1024" y="0" width="1366" height="768" />
     </state>
     <state x="346" y="223" key="com.intellij.ide.util.TipDialog/0.26.1366.742@0.26.1366.742" timestamp="1580819683564" />
-    <state x="1370" y="204" key="com.intellij.ide.util.TipDialog/1024.0.1366.768/0.26.1024.742@1024.0.1366.768" timestamp="1580905562122" />
+    <state x="1370" y="204" key="com.intellij.ide.util.TipDialog/1024.0.1366.768/0.26.1024.742@1024.0.1366.768" timestamp="1581160245891" />
     <state x="0" y="52" width="1032" height="690" key="dock-window-1" timestamp="1581006084446">
       <screen x="0" y="26" width="1024" height="742" />
     </state>
@@ -198,24 +203,24 @@
       <screen x="0" y="26" width="1024" height="742" />
     </state>
     <state x="-8" y="26" width="1032" height="690" key="dock-window-2/1024.0.1366.768/0.26.1024.742@1024.0.1366.768" timestamp="1581006205321" />
-    <state x="0" y="26" width="1032" height="690" key="dock-window-3" timestamp="1581006241858">
-      <screen x="0" y="26" width="1024" height="742" />
+    <state x="1236" y="132" width="1032" height="690" key="dock-window-3" timestamp="1581160257837">
+      <screen x="1024" y="0" width="1366" height="768" />
     </state>
-    <state x="0" y="26" width="1032" height="690" key="dock-window-3/1024.0.1366.768/0.26.1024.742@1024.0.1366.768" timestamp="1581006241858" />
+    <state x="1236" y="132" width="1032" height="690" key="dock-window-3/1024.0.1366.768/0.26.1024.742@1024.0.1366.768" timestamp="1581160257837" />
     <state x="1083" y="122" key="new project wizard" timestamp="1581004259312">
       <screen x="1024" y="0" width="1366" height="768" />
     </state>
     <state x="1083" y="122" key="new project wizard/1024.0.1366.768/0.26.1024.742@1024.0.1366.768" timestamp="1581004259312" />
-    <state x="1808" y="155" key="run.anything.popup" timestamp="1580924101763">
+    <state x="1808" y="155" key="run.anything.popup" timestamp="1581169019732">
       <screen x="1024" y="0" width="1366" height="768" />
     </state>
     <state x="1371" y="176" key="run.anything.popup/0.26.2390.742@0.26.2390.742" timestamp="1580833238179" />
-    <state x="1808" y="155" key="run.anything.popup/1024.0.1366.768/0.26.1024.742@1024.0.1366.768" timestamp="1580924101763" />
-    <state x="1384" y="74" width="672" height="702" key="search.everywhere.popup" timestamp="1581006811320">
+    <state x="1808" y="155" key="run.anything.popup/1024.0.1366.768/0.26.1024.742@1024.0.1366.768" timestamp="1581169019732" />
+    <state x="1384" y="74" width="672" height="702" key="search.everywhere.popup" timestamp="1581166060924">
       <screen x="1024" y="0" width="1366" height="768" />
     </state>
     <state x="783" y="89" width="672" height="678" key="search.everywhere.popup/0.26.1366.742@0.26.1366.742" timestamp="1580826889589" />
     <state x="1370" y="89" width="672" height="678" key="search.everywhere.popup/0.26.2390.742@0.26.2390.742" timestamp="1580823548612" />
-    <state x="1384" y="74" width="672" height="702" key="search.everywhere.popup/1024.0.1366.768/0.26.1024.742@1024.0.1366.768" timestamp="1581006811320" />
+    <state x="1384" y="74" width="672" height="702" key="search.everywhere.popup/1024.0.1366.768/0.26.1024.742@1024.0.1366.768" timestamp="1581166060924" />
   </component>
 </project>

@@ -176,7 +176,13 @@ a{
 .emailCard:focus {
     outline-color: transparent;
 }
-
+.tech-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    color: #373D46;
+    alignment: center;
+}
 .custom-button {
     border: none;
     color: white;
