@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1dd778b-ac2c-4274-91b8-32e43b60c42a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/react.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Images/react.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/skills.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +149,7 @@
       <workItem from="1580905554653" duration="28670000" />
       <workItem from="1581005943809" duration="669000" />
       <workItem from="1581160241099" duration="6595000" />
-      <workItem from="1591716843984" duration="5495000" />
+      <workItem from="1591716843984" duration="5785000" />
     </task>
     <task id="LOCAL-00001" summary="Modify text on index.html">
       <created>1581172479517</created>
