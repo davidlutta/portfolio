@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1dd778b-ac2c-4274-91b8-32e43b60c42a" name="Default Changelist" comment="" />
+    <list default="true" id="f1dd778b-ac2c-4274-91b8-32e43b60c42a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/react.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Images/react.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/skills.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +55,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -146,73 +152,38 @@
       <workItem from="1580819672974" duration="15300000" />
       <workItem from="1580905554653" duration="28670000" />
       <workItem from="1581005943809" duration="669000" />
-      <workItem from="1581160241099" duration="6186000" />
+      <workItem from="1581160241099" duration="6595000" />
+      <workItem from="1591716843984" duration="5495000" />
     </task>
+    <task id="LOCAL-00001" summary="Modify text on index.html">
+      <created>1581172479517</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581172479517</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="Modify text on index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify text on index.html" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="1302" y="57" key="#WebSphere_Server" timestamp="1580823167310">
-      <screen x="0" y="26" width="2390" height="742" />
+    <state x="1697" y="86" key="SettingsEditor" timestamp="1591716920561">
+      <screen x="1517" y="56" width="1366" height="768" />
     </state>
-    <state x="1302" y="57" key="#WebSphere_Server/0.26.2390.742@0.26.2390.742" timestamp="1580823167310" />
-    <state x="1303" y="57" key="#Web_Browsers" timestamp="1580823384194">
-      <screen x="0" y="26" width="2390" height="742" />
+    <state x="1697" y="86" key="SettingsEditor/1517.56.1366.768/0.0.1280.1024@1517.56.1366.768" timestamp="1591716920561" />
+    <state x="1863" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1591723668342">
+      <screen x="1517" y="56" width="1366" height="768" />
     </state>
-    <state x="1303" y="57" key="#Web_Browsers/0.26.2390.742@0.26.2390.742" timestamp="1580823384194" />
-    <state x="1166" y="26" width="1081" height="742" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580823312074">
-      <screen x="0" y="26" width="2390" height="742" />
-    </state>
-    <state x="1166" y="26" width="1081" height="742" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.26.2390.742@0.26.2390.742" timestamp="1580823312074" />
-    <state x="1024" y="22" width="807" height="746" key="CommitChangelistDialog2" timestamp="1581003238352">
-      <screen x="1024" y="0" width="1366" height="768" />
-    </state>
-    <state x="1024" y="22" width="807" height="746" key="CommitChangelistDialog2/1024.0.1366.768/0.26.1024.742@1024.0.1366.768" timestamp="1581003238352" />
-    <state x="1024" y="22" width="1032" height="746" key="SettingsEditor" timestamp="1580906506508">
-      <screen x="1024" y="0" width="1366" height="768" />
-    </state>
-    <state x="1024" y="22" width="1032" height="746" key="SettingsEditor/1024.0.1366.768/0.26.1024.742@1024.0.1366.768" timestamp="1580906506508" />
-    <state x="1303" y="127" key="Vcs.Push.Dialog.v2" timestamp="1581003170783">
-      <screen x="1024" y="0" width="1366" height="768" />
-    </state>
-    <state x="1303" y="127" key="Vcs.Push.Dialog.v2/1024.0.1366.768/0.26.1024.742@1024.0.1366.768" timestamp="1581003170783" />
-    <state x="1124" y="126" width="1166" height="542" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1580907073956">
-      <screen x="1024" y="0" width="1366" height="768" />
-    </state>
-    <state x="1124" y="126" width="1166" height="542" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1024.0.1366.768/0.26.1024.742@1024.0.1366.768" timestamp="1580907073956" />
-    <state x="1370" y="204" key="com.intellij.ide.util.TipDialog" timestamp="1581160245891">
-      <screen x="1024" y="0" width="1366" height="768" />
-    </state>
-    <state x="346" y="223" key="com.intellij.ide.util.TipDialog/0.26.1366.742@0.26.1366.742" timestamp="1580819683564" />
-    <state x="1370" y="204" key="com.intellij.ide.util.TipDialog/1024.0.1366.768/0.26.1024.742@1024.0.1366.768" timestamp="1581160245891" />
-    <state x="0" y="52" width="1032" height="690" key="dock-window-1" timestamp="1581006084446">
-      <screen x="0" y="26" width="1024" height="742" />
-    </state>
-    <state x="0" y="52" width="1032" height="690" key="dock-window-1/1024.0.1366.768/0.26.1024.742@1024.0.1366.768" timestamp="1581006084446" />
-    <state x="-8" y="26" width="1032" height="690" key="dock-window-2" timestamp="1581006205321">
-      <screen x="0" y="26" width="1024" height="742" />
-    </state>
-    <state x="-8" y="26" width="1032" height="690" key="dock-window-2/1024.0.1366.768/0.26.1024.742@1024.0.1366.768" timestamp="1581006205321" />
-    <state x="1236" y="132" width="1032" height="690" key="dock-window-3" timestamp="1581160257837">
-      <screen x="1024" y="0" width="1366" height="768" />
-    </state>
-    <state x="1236" y="132" width="1032" height="690" key="dock-window-3/1024.0.1366.768/0.26.1024.742@1024.0.1366.768" timestamp="1581160257837" />
-    <state x="1083" y="122" key="new project wizard" timestamp="1581004259312">
-      <screen x="1024" y="0" width="1366" height="768" />
-    </state>
-    <state x="1083" y="122" key="new project wizard/1024.0.1366.768/0.26.1024.742@1024.0.1366.768" timestamp="1581004259312" />
-    <state x="1808" y="155" key="run.anything.popup" timestamp="1581169019732">
-      <screen x="1024" y="0" width="1366" height="768" />
-    </state>
-    <state x="1371" y="176" key="run.anything.popup/0.26.2390.742@0.26.2390.742" timestamp="1580833238179" />
-    <state x="1808" y="155" key="run.anything.popup/1024.0.1366.768/0.26.1024.742@1024.0.1366.768" timestamp="1581169019732" />
-    <state x="1384" y="74" width="672" height="702" key="search.everywhere.popup" timestamp="1581172294671">
-      <screen x="1024" y="0" width="1366" height="768" />
-    </state>
-    <state x="783" y="89" width="672" height="678" key="search.everywhere.popup/0.26.1366.742@0.26.1366.742" timestamp="1580826889589" />
-    <state x="1370" y="89" width="672" height="678" key="search.everywhere.popup/0.26.2390.742@0.26.2390.742" timestamp="1580823548612" />
-    <state x="1384" y="74" width="672" height="702" key="search.everywhere.popup/1024.0.1366.768/0.26.1024.742@1024.0.1366.768" timestamp="1581172294671" />
+    <state x="1863" y="145" width="672" height="678" key="search.everywhere.popup/1517.56.1366.768/0.0.1280.1024@1517.56.1366.768" timestamp="1591723668342" />
   </component>
 </project>
