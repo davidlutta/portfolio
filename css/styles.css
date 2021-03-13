@@ -171,13 +171,18 @@ a{
     border-radius: 20px;
     border-color: transparent;
     box-shadow: 0px 10px 50px rgba(188, 197, 216, 1);
-    width: 400px;
 }
 
 .emailCard:focus {
     outline-color: transparent;
 }
-
+.tech-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    color: #373D46;
+    alignment: center;
+}
 .custom-button {
     border: none;
     color: white;

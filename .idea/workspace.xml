@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f1dd778b-ac2c-4274-91b8-32e43b60c42a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,9 +11,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="Portfolio" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,13 +45,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Raspberry Pi/YTS/download-server" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -151,18 +146,17 @@
       <option name="presentableId" value="Default" />
       <updated>1580819663144</updated>
       <workItem from="1580819672974" duration="15300000" />
-<<<<<<< HEAD
       <workItem from="1580905554653" duration="29029000" />
-=======
       <workItem from="1580905554653" duration="28670000" />
       <workItem from="1581005943809" duration="669000" />
->>>>>>> gh-pages
     </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+<<<<<<< HEAD
   <component name="UpdateCopyrightCheckinHandler">
     <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
@@ -175,65 +169,21 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1302" y="57" key="#WebSphere_Server" timestamp="1580823167310">
-      <screen x="0" y="26" width="2390" height="742" />
+    <state x="1984" y="209" key="FileChooserDialogImpl" timestamp="1591889832873">
+      <screen x="1517" y="56" width="1366" height="768" />
     </state>
-    <state x="1302" y="57" key="#WebSphere_Server/0.26.2390.742@0.26.2390.742" timestamp="1580823167310" />
-    <state x="1303" y="57" key="#Web_Browsers" timestamp="1580823384194">
-      <screen x="0" y="26" width="2390" height="742" />
+    <state x="1984" y="209" key="FileChooserDialogImpl/1517.56.1366.768/0.0.1280.1024@1517.56.1366.768" timestamp="1591889832873" />
+    <state x="1697" y="86" key="SettingsEditor" timestamp="1591716920561">
+      <screen x="1517" y="56" width="1366" height="768" />
     </state>
-    <state x="1303" y="57" key="#Web_Browsers/0.26.2390.742@0.26.2390.742" timestamp="1580823384194" />
-    <state x="1166" y="26" width="1081" height="742" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580823312074">
-      <screen x="0" y="26" width="2390" height="742" />
+    <state x="1697" y="86" key="SettingsEditor/1517.56.1366.768/0.0.1280.1024@1517.56.1366.768" timestamp="1591716920561" />
+    <state x="1862" y="280" key="com.intellij.ide.util.TipDialog" timestamp="1591889743359">
+      <screen x="1517" y="56" width="1366" height="768" />
     </state>
-    <state x="1166" y="26" width="1081" height="742" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.26.2390.742@0.26.2390.742" timestamp="1580823312074" />
-    <state x="1024" y="22" width="807" height="746" key="CommitChangelistDialog2" timestamp="1581003238352">
-      <screen x="1024" y="0" width="1366" height="768" />
+    <state x="1862" y="280" key="com.intellij.ide.util.TipDialog/1517.56.1366.768/0.0.1280.1024@1517.56.1366.768" timestamp="1591889743359" />
+    <state x="1863" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1591723668342">
+      <screen x="1517" y="56" width="1366" height="768" />
     </state>
-    <state x="1024" y="22" width="807" height="746" key="CommitChangelistDialog2/1024.0.1366.768/0.26.1024.742@1024.0.1366.768" timestamp="1581003238352" />
-    <state x="1024" y="22" width="1032" height="746" key="SettingsEditor" timestamp="1580906506508">
-      <screen x="1024" y="0" width="1366" height="768" />
-    </state>
-    <state x="1024" y="22" width="1032" height="746" key="SettingsEditor/1024.0.1366.768/0.26.1024.742@1024.0.1366.768" timestamp="1580906506508" />
-    <state x="1303" y="127" key="Vcs.Push.Dialog.v2" timestamp="1581003170783">
-      <screen x="1024" y="0" width="1366" height="768" />
-    </state>
-    <state x="1303" y="127" key="Vcs.Push.Dialog.v2/1024.0.1366.768/0.26.1024.742@1024.0.1366.768" timestamp="1581003170783" />
-    <state x="1124" y="126" width="1166" height="542" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1580907073956">
-      <screen x="1024" y="0" width="1366" height="768" />
-    </state>
-    <state x="1124" y="126" width="1166" height="542" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1024.0.1366.768/0.26.1024.742@1024.0.1366.768" timestamp="1580907073956" />
-    <state x="1370" y="204" key="com.intellij.ide.util.TipDialog" timestamp="1580905562122">
-      <screen x="1024" y="0" width="1366" height="768" />
-    </state>
-    <state x="346" y="223" key="com.intellij.ide.util.TipDialog/0.26.1366.742@0.26.1366.742" timestamp="1580819683564" />
-    <state x="1370" y="204" key="com.intellij.ide.util.TipDialog/1024.0.1366.768/0.26.1024.742@1024.0.1366.768" timestamp="1580905562122" />
-    <state x="0" y="52" width="1032" height="690" key="dock-window-1" timestamp="1581006084446">
-      <screen x="0" y="26" width="1024" height="742" />
-    </state>
-    <state x="0" y="52" width="1032" height="690" key="dock-window-1/1024.0.1366.768/0.26.1024.742@1024.0.1366.768" timestamp="1581006084446" />
-    <state x="-8" y="26" width="1032" height="690" key="dock-window-2" timestamp="1581006205321">
-      <screen x="0" y="26" width="1024" height="742" />
-    </state>
-    <state x="-8" y="26" width="1032" height="690" key="dock-window-2/1024.0.1366.768/0.26.1024.742@1024.0.1366.768" timestamp="1581006205321" />
-    <state x="0" y="26" width="1032" height="690" key="dock-window-3" timestamp="1581006241858">
-      <screen x="0" y="26" width="1024" height="742" />
-    </state>
-    <state x="0" y="26" width="1032" height="690" key="dock-window-3/1024.0.1366.768/0.26.1024.742@1024.0.1366.768" timestamp="1581006241858" />
-    <state x="1083" y="122" key="new project wizard" timestamp="1581004259312">
-      <screen x="1024" y="0" width="1366" height="768" />
-    </state>
-    <state x="1083" y="122" key="new project wizard/1024.0.1366.768/0.26.1024.742@1024.0.1366.768" timestamp="1581004259312" />
-    <state x="1808" y="155" key="run.anything.popup" timestamp="1580924101763">
-      <screen x="1024" y="0" width="1366" height="768" />
-    </state>
-    <state x="1371" y="176" key="run.anything.popup/0.26.2390.742@0.26.2390.742" timestamp="1580833238179" />
-    <state x="1808" y="155" key="run.anything.popup/1024.0.1366.768/0.26.1024.742@1024.0.1366.768" timestamp="1580924101763" />
-    <state x="1384" y="74" width="672" height="702" key="search.everywhere.popup" timestamp="1581006811320">
-      <screen x="1024" y="0" width="1366" height="768" />
-    </state>
-    <state x="783" y="89" width="672" height="678" key="search.everywhere.popup/0.26.1366.742@0.26.1366.742" timestamp="1580826889589" />
-    <state x="1370" y="89" width="672" height="678" key="search.everywhere.popup/0.26.2390.742@0.26.2390.742" timestamp="1580823548612" />
-    <state x="1384" y="74" width="672" height="702" key="search.everywhere.popup/1024.0.1366.768/0.26.1024.742@1024.0.1366.768" timestamp="1581006811320" />
+    <state x="1863" y="145" width="672" height="678" key="search.everywhere.popup/1517.56.1366.768/0.0.1280.1024@1517.56.1366.768" timestamp="1591723668342" />
   </component>
 </project>
