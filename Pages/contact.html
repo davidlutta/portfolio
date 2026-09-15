@@ -7,12 +7,8 @@
     <title>Contact Me</title>
     <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
     <link rel="shortcut icon" type="image/png" href="https://avatars3.githubusercontent.com/u/14890315?s=400&u=19960efc74cd27933a7beda29f8bf62a9a8cbe3e&v=4"/>
+    <link rel="stylesheet" href="../css/bootstrap-grid.css">
     <link rel="stylesheet" href="../css/styles.css" type="text/css">
-    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/semantic.min.css"/>
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css"/>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
     <script src="../Js/index.js"></script>
 </head>
@@ -33,19 +29,55 @@
         <section class="hero">
             <div class="hero-content">
                 <h1 id="myTitle">Contact Me</h1>
-                <form id="contact-form" method="post" action="https://formspree.io/dev.davidlutta@gmail.com">
-                    <div>
-                        <input type="text" class="emailCard" placeholder="name" name="name" id="name">
+                <p class="contact-intro">Whether it's a role, a collaboration, or a question about my work, I'd love to hear from you. Send me a message and I'll get back to you.</p>
+                <div class="contact-layout">
+                    <div class="contact-links">
+                        <a class="contact-link" href="mailto:davidlutta2010@gmail.com">
+                            <span class="contact-link-icon" aria-hidden="true">✉️</span>
+                            <span>
+                                <span class="contact-link-label">Email</span>
+                                <span class="contact-link-value">davidlutta2010@gmail.com</span>
+                            </span>
+                        </a>
+                        <a class="contact-link" href="https://www.linkedin.com/in/david-l-797891ab/" target="_blank" rel="noopener">
+                            <span class="contact-link-icon" aria-hidden="true"><img src="../Images/linkedin.svg" alt=""></span>
+                            <span>
+                                <span class="contact-link-label">LinkedIn</span>
+                                <span class="contact-link-value">Connect with me</span>
+                            </span>
+                        </a>
+                        <a class="contact-link" href="https://github.com/davidlutta" target="_blank" rel="noopener">
+                            <span class="contact-link-icon" aria-hidden="true"><img src="../Images/github-logo.svg" alt=""></span>
+                            <span>
+                                <span class="contact-link-label">GitHub</span>
+                                <span class="contact-link-value">github.com/davidlutta</span>
+                            </span>
+                        </a>
+                        <div class="contact-link">
+                            <span class="contact-link-icon" aria-hidden="true">📍</span>
+                            <span>
+                                <span class="contact-link-label">Location</span>
+                                <span class="contact-link-value">Nairobi, Kenya</span>
+                            </span>
+                        </div>
                     </div>
-                    <div>
-                        <input type="email" class="emailCard" placeholder="email" name="email" id="email">
-                    </div>
-                    <div>
-                        <textArea id="message" class="emailCard"  placeholder="Message"
-                                  name="message"></textArea>
-                    </div>
-                    <button class="custom-button" type="submit" onclick="sendEmail()">Send</button>
-                </form>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-field">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" autocomplete="name" placeholder="Jane Doe" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" autocomplete="email" placeholder="jane@company.com" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" placeholder="How can I help?" required></textarea>
+                        </div>
+                        <button class="action-btn contact-submit" type="submit">Send message</button>
+                        <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+                    </form>
+                </div>
             </div>
         </section>
     </div>
